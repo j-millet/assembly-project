@@ -19,7 +19,6 @@ section .text
         lea rdi, [format]
         mov al, 0
         call printf wrt ..plt
-        
         add rsp,8
         mov rax, 0
 

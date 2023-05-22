@@ -49,7 +49,7 @@ section .text
             addsd   xmm14,xmm1
             jmp loop
 
-        ;ah shit here we go again
+        
         exit:;exit 0
             mov rax,60
             mov rdi,0
